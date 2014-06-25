@@ -10,10 +10,13 @@
 # * I/O expander drivers go to drivers/gpio
 #
 <<<<<<< HEAD
+<<<<<<< HEAD
 #proximity-objs := cm3629.o
 =======
 ccflags-y := -Wno-maybe-uninitialized
 
+=======
+>>>>>>> parent of 155f31d... Linaro GCC 4.9.1: fix compilation errors
 proximity-objs := cm3629.o
 >>>>>>> 155f31d... Linaro GCC 4.9.1: fix compilation errors
 obj-$(CONFIG_SENSORS_NFC_PN544) += pn544.o

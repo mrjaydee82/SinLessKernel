@@ -765,9 +765,13 @@ static int rmnet_function_bind_config(struct android_usb_function *f,
 					 struct usb_configuration *c)
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	int i;
 =======
 	int i, err = 0;
+=======
+	int i, err;
+>>>>>>> parent of 155f31d... Linaro GCC 4.9.1: fix compilation errors
 
 	for (i = 0; i < rmnet_nports; i++) {
 		err = frmnet_bind_config(c, i);
